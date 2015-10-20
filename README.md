@@ -7,7 +7,7 @@ https://github.com/lauren/pick-a-color
 Installation:
 Install with bower:
 ```
-bower install angular-pick-a-color --save
+bower install angular-pick-a-color-m --save
 ```
 
 This should grab all the dependancies. Alternatively, download the files from this repo (angular-pick-a-color.js) and also grab the js file and css from the pick-a-color repo…
