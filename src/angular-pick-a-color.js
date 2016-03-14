@@ -71,7 +71,7 @@ angular.module('pickAColor', [])
 
                     scope.$watch(model, function(value) {
                         element.val(model(scope));
-                        element.focus();
+                        element.blur();
                         element.blur();
                     });
 
