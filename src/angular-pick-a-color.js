@@ -22,8 +22,7 @@ angular.module('pickAColor', [])
             this.options = options;
         };
     })
-
-    .directive('pickAColor', function ($parse, pickAColor) {
+    .directive('pickAColor', ['$parse', 'pickAColor', function ($parse, pickAColor) {
         return {
             restrict: 'E',
             compile: function (element, attrs) {
@@ -98,4 +97,4 @@ angular.module('pickAColor', [])
                 };
             }
         };
-    });
+    }]);
